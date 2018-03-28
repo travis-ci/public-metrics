@@ -14,3 +14,6 @@ librato:
   free:
     email: mathias@travis-ci.org
     token: f2bb8c3c2392ff94b4fbb705479eeabafa136654d0ac542670c4399d3717d449
+
+exclude:
+- vendor
