@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<h2>Paid Infrastructure</h2>
+
+<p class="nav-ish"><a href="..">&#10229;</a></p>
+
+<h3>macOS</h3>
+{% include librato-chart.html chart_id='507700' %}
+
+<h3>Linux: sudo-enabled</h3>
+{% include librato-chart.html chart_id='820995' %}
+
+<h3>Linux: container-based</h3>
+{% include librato-chart.html chart_id='3809100' %}
+
+<script
+  type='text/javascript'
+  src='https://sdk.librato.com/embedding/librato-sdk-v1.2.3-min.js'
+  charset='utf-8'
+  data-librato_email='{{site.librato.paid.email}}'
+  data-librato_token='{{site.librato.paid.token}}'>
+</script>

@@ -1,0 +1,16 @@
+title: Travis CI Metrics
+email: support+metrics@travis-ci.com
+description: >-
+  A collection of helpful metrics lovingly curated by the humans of Travis CI.
+baseurl:
+url: https://metrics.travis-ci.com
+markdown: kramdown
+theme: jekyll-theme-minimal
+
+librato:
+  paid:
+    email: mathias@travis-ci.com
+    token: 76a2c8f4f0d49b9196ea2daa83e131cecae6c6d44a3dd543f0082af4239d002f
+  free:
+    email: mathias@travis-ci.org
+    token: f2bb8c3c2392ff94b4fbb705479eeabafa136654d0ac542670c4399d3717d449
